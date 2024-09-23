@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Substance Awareness Resource Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Awareness Guide</div>
+        <ul>
+            <li><a href="#classification">Classification</a></li>
+            <li><a href="#cns-effects">CNS Effects</a></li>
+            <li><a href="#prevention">Prevention</a></li>
+            <li><a href="#dangers">Dangers</a></li>
+            <li><a href="#impact">Impact</a></li>
+            <li><a href="#drug-prevention">Drug Prevention</a></li>
+            <li><a href="#members">Members</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section with Parallax -->
+    <header class="header">
+        <div class="parallax-container">
+            <div class="container">
+                <h1>Substance Awareness Resource Guide</h1>
+                <p>Your guide to understanding drugs and their effects on the CNS.</p>
+                <a href="#classification" class="btn">Explore Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Drug Classification Section -->
+        <section id="classification" class="section">
+            <h2>Drug Classification</h2>
+            <div class="tabs">
+                <button class="tab-button" onclick="openTab(event, 'stimulants')">Stimulants</button>
+                <button class="tab-button" onclick="openTab(event, 'depressants')">Depressants</button>
+                <button class="tab-button" onclick="openTab(event, 'hallucinogens')">Hallucinogens</button>
+                <button class="tab-button" onclick="openTab(event, 'multi-action')">Multi-Action Drugs</button>
+            </div>
+
+            <div id="stimulants" class="tab-content">
+                <h3>Stimulants</h3>
+                <p>Stimulants increase CNS activity, causing heightened alertness and energy levels. Examples: Cocaine, Methamphetamine, and Nicotine.</p>
+                <ul>
+                    <li><strong>Cocaine</strong>: A powerful stimulant that increases dopamine levels in the brain.</li>
+                    <li><strong>Methamphetamine</strong>: Highly addictive and affects the CNS by increasing energy and activity levels.</li>
+                    <li><strong>Nicotine</strong>: Found in cigarettes, nicotine is a legal stimulant with highly addictive properties.</li>
+                </ul>
+            </div>
+
+            <div id="depressants" class="tab-content">
+                <h3>Depressants</h3>
+                <p>Depressants slow down CNS activity, leading to relaxation, drowsiness, or a sense of calm. Examples: Alcohol, Benzodiazepines, and Barbiturates.</p>
+                <ul>
+                    <li><strong>Alcohol</strong>: The most commonly consumed depressant that affects motor control and cognitive abilities.</li>
+                    <li><strong>Benzodiazepines</strong>: Prescribed for anxiety and sleep disorders but can be addictive with long-term use.</li>
+                    <li><strong>Barbiturates</strong>: Once used for treating insomnia, now less common due to their addictive potential.</li>
+                </ul>
+            </div>
+
+            <div id="hallucinogens" class="tab-content">
+                <h3>Hallucinogens</h3>
+                <p>Hallucinogens alter perception, mood, and thought by disrupting the interaction of nerve cells and the neurotransmitter serotonin.</p>
+                <ul>
+                    <li><strong>LSD</strong>: A potent hallucinogen causing altered thoughts, feelings, and awareness of surroundings.</li>
+                    <li><strong>Psilocybin</strong>: Found in certain mushrooms, it causes hallucinogenic effects similar to LSD.</li>
+                    <li><strong>MDMA (Ecstasy)</strong>: While not a pure hallucinogen, MDMA has both stimulant and hallucinogenic properties.</li>
+                </ul>
+            </div>
+
+            <!-- Multi-Action Drugs Tab Content -->
+            <div id="multi-action" class="tab-content">
+                <h3>Multi-Action Drugs</h3>
+                <p>Multi-action drugs affect the body in various ways, sometimes exhibiting characteristics of different drug classes at once.</p>
+                <ul>
+                    <li>They can act as stimulants (increasing activity in the central nervous system) while also having depressant properties (slowing down other bodily functions).</li>
+                    <li>Some multi-action drugs can have hallucinogenic and narcotic effects, influencing both perception and pain relief.</li>
+                    <li><strong>MDMA (Ecstasy)</strong>: An example of a multi-action drug, exhibiting both stimulant and hallucinogenic properties.</li>
+                    <li><strong>Ketamine</strong>: A drug that works as a dissociative anesthetic, producing both stimulant and hallucinogenic effects.</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- CNS Effects Section -->
+        <section id="cns-effects" class="section">
+            <h2>Effects on the CNS</h2>
+            <div class="effects-container">
+                <div class="effect-card">
+                    <h3>Stimulants on the CNS</h3>
+                    <p>Stimulants accelerate brain activity, leading to increased dopamine levels, which can result in euphoria, increased heart rate, and higher energy. Long-term use can cause anxiety, paranoia, and heart issues.</p>
+                </div>
+                <div class="effect-card">
+                    <h3>Depressants on the CNS</h3>
+                    <p>Depressants slow down brain function, causing relaxation and drowsiness. Overuse can lead to slurred speech, impaired judgment, and respiratory problems.</p>
+                </div>
+                <div class="effect-card">
+                    <h3>Hallucinogens on the CNS</h3>
+                    <p>Hallucinogens affect the brain's serotonin receptors, causing changes in perception, mood, and thought. They may trigger hallucinations and distorted sensory experiences.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Drug Prevention Section -->
+<section id="prevention" class="section prevention-section">
+    <h2>Drug Prevention Strategies</h2>
+    <p>Prevention is key to reducing the negative impact of drugs in society. The Philippines has focused on community-based programs, educational campaigns, and rehabilitation centers to help individuals stay away from drugs.</p>
+    
+    <div class="prevention-strategies">
+        <div class="strategy">
+            <h3>Education</h3>
+            <p>Schools and communities educate youth on the dangers of drugs through outreach programs and seminars.</p>
+        </div>
+        <div class="strategy">
+            <h3>Rehabilitation Centers</h3>
+            <p>Specialized centers offer rehabilitation services to help individuals recover from drug addiction and reintegrate into society.</p>
+        </div>
+        <div class="strategy">
+            <h3>Community Engagement</h3>
+            <p>Communities work together to prevent drug abuse through collective action and awareness initiatives.</p>
+        </div>
+    </div>
+
+    <!-- New Section: Healthy Living and Alternatives -->
+    <div class="healthy-living">
+        <h3>Healthy Living and Alternatives to Drug Use</h3>
+        <ul>
+            <li><strong>Exercise and physical activities</strong>: Regular physical activity can reduce stress and enhance mood, acting as a natural alternative to substances.</li>
+            <li><strong>Balanced diet</strong>: Proper nutrition supports mental and physical health, reducing the temptation to rely on drugs for relief or pleasure.</li>
+            <li><strong>Mental health care</strong>: Access to counseling, therapy, and emotional support is essential in preventing drug dependency.</li>
+            <li><strong>Social support systems</strong>: Having strong relationships with family, friends, and mentors helps individuals resist drug use.</li>
+            <li><strong>Creative and productive outlets</strong>: Engage in hobbies, arts, sports, and community service to channel energy and emotion positively.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Dangers of Multi-Action Drugs Section -->
+<section id="dangers" class="section dangers-multi-action">
+    <h3>Dangers of Multi-Action Drugs</h3>
+    <ul>
+        <li>
+            <strong>Unpredictable interactions:</strong> Multi-action drugs can interact with other substances in dangerous ways, leading to increased risk of overdose.
+        </li>
+        <li>
+            <strong>Mental health risks:</strong> These drugs can have a significant impact on mental health, including anxiety, depression, and psychosis.
+        </li>
+        <li>
+            <strong>Physical health risks:</strong> Multi-action drugs can affect vital organs like the heart, liver, and kidneys due to their wide range of effects.
+        </li>
+        <li>
+            <strong>Addiction:</strong> The mixed effects can lead to both psychological and physical dependence, making it harder to quit.
+        </li>
+    </ul>
+
+    
+</section>
+
+<!-- Multi-Action Drugs Explanation Section -->
+<section id="multi-action" class="multi-action-explanation">
+    <h3>What Are Multi-Action Drugs?</h3>
+    <p>Multi-action drugs affect the body in various ways, sometimes exhibiting characteristics of different drug classes at once.</p>
+    <p>They can act as stimulants (increasing activity in the central nervous system) while also having depressant properties (slowing down other bodily functions). Some multi-action drugs can have hallucinogenic and narcotic effects, influencing both perception and pain relief.</p>
+</section>
+
+<!-- New Section: Impact of Drug Misuse -->
+<section id="impact" class="section impact-section">
+    <h2>The Devastating Impact of Drug Misuse: A Look at Physical and Mental Health Consequences</h2>
+    <p>Drug misuse can have severe and lasting consequences on both physical and mental health.</p>
+    
+    <h3>Physical Health Effects:</h3>
+    <ul>
+        <li><strong>Organ Damage:</strong> Long-term drug use can cause damage to vital organs like the liver, kidneys, and lungs. For instance, alcohol abuse can lead to liver damage, while smoking harms the lungs and cardiovascular system.
+        </li>
+        <li><strong>Weakened Immune System:</strong> Chronic drug use compromises the body's ability to fight off infections and diseases, making individuals more susceptible to illness.</li>
+        <li><strong>Overdose Risks:</strong> Misusing drugs, especially depressants like opioids or stimulants like cocaine, can result in potentially fatal overdoses.</li>
+        <li><strong>Signs of Physical Deterioration:</strong> Noticeable weight changes, decline in appearance, frequent illnesses, and persistent fatigue.</li>
+    </ul>
+    
+    <h3>Mental Health Effects:</h3>
+    <ul>
+        <li><strong>Anxiety and Depression:</strong> Many drugs alter neurotransmitter levels, leading to mood disorders after prolonged use or withdrawal.</li>
+        <li><strong>Paranoia and Psychosis:</strong> Chronic use of hallucinogens or stimulants can trigger psychotic episodes, characterized by delusions and hallucinations.</li>
+        <li><strong>Cognitive Impairment:</strong> Long-term use impairs memory, concentration, and decision-making abilities.</li>
+        <li><strong>Signs of Mental Health Deterioration:</strong> Sudden mood swings, social withdrawal, confusion, and suicidal thoughts.</li>
+    </ul>
+
+    <p>It's important to remember that these are just some of the potential consequences of drug misuse. The specific effects can vary depending on the type of drug, the duration of use, and individual factors.</p>
+    <p>If you or someone you know is struggling with drug misuse, seeking professional help is crucial.</p>
+</section>
+
+<!-- Drug Prevention Section -->
+<section id="drug-prevention" class="section drug-prevention">
+    <h3>Drug Prevention: A Vital Public Health Strategy</h3>
+    <p>Drug prevention is a critical component of public health, aiming to decrease drug use and its associated harms. This requires a comprehensive approach that addresses various risk factors and promotes protective factors across different levels of society.</p>
+    <h4>Understanding Drug Prevention</h4>
+    <p>Drug prevention involves a wide range of strategies designed to discourage individuals from starting drug use, reduce the progression from experimenting to problematic use, and minimize the negative consequences of drug misuse.</p>
+
+    <h4>Key Strategies for Drug Prevention</h4>
+    <ul>
+        <li><strong>Abstaining from Drug Use:</strong> The most effective way to prevent drug abuse is to avoid using drugs altogether. This means making a conscious decision to stay away from illicit substances and following prescribed medication guidelines.</li>
+        <li><strong>Seeking Professional Help:</strong> Consulting healthcare providers for advice and treatment is essential for individuals at risk or showing signs of substance misuse. Early intervention can significantly reduce the risk of developing a substance abuse disorder.</li>
+        <li><strong>Fostering Strong Family Relationships:</strong> A supportive family environment plays a crucial role in preventing substance abuse. Strong family bonds provide emotional support, guidance, and a safe space that discourages drug use.</li>
+        <li><strong>Living a Healthy, Balanced Lifestyle:</strong> Maintaining a balanced lifestyle that includes regular exercise, a nutritious diet, and adequate sleep can significantly reduce the risk of substance abuse. Physical well-being often translates to emotional well-being, making it easier to resist the temptation of drug use.</li>
+        <li><strong>Obtaining Education on the Dangers of Substance Abuse:</strong> Knowledge is power, and being aware of the risks and consequences of substance abuse can act as a strong preventive measure. Educational programs and awareness campaigns can provide valuable information that discourages drug use.</li>
+        <li><strong>Learning Healthy Coping Skills:</strong> Developing strategies to manage stress and emotional challenges can act as a buffer against substance abuse. Healthy coping mechanisms like exercise, journaling, or talking to a trusted friend can replace the urge to use drugs.</li>
+        <li><strong>Practicing Mindfulness Activities:</strong> Mindfulness activities, such as meditation, yoga, or deep breathing exercises, aid in focusing the mind, enhancing self-awareness, and reducing stress. These activities can help diminish cravings and the impulse to engage in substance use.</li>
+        <li><strong>Engaging in Community Support:</strong> Participating in community programs or support groups can offer additional layers of prevention against substance abuse. These platforms provide education, emotional support, and a sense of belonging, which can deter drug use.</li>
+        <li><strong>Setting Personal Goals:</strong> Having clear objectives for your life can serve as a motivating factor to steer clear of substance abuse. Goals give individuals something to strive for, making the temptation of drug use less appealing.</li>
+        <li><strong>Resisting Peer Pressure:</strong> Learning to effectively resist peer pressure is critical component in preventing substance abuse among adolescents and emerging adults. Developing the skills to say no can prevent a descent into substance abuse issues.</li>
+    </ul>
+
+    <h4>Prevention Programs and Interventions</h4>
+    <ul>
+        <li><strong>Research-Based Programs:</strong> Evidence-based prevention programs  are designed to reduce risk factors and enhance protective factors for drug use. They can be universal, selective, or indicated, targeting different populations and age groups.</li>
+        <li><strong>Family-Based Programs:</strong> These programs provide parents and caregivers with resources and skills to support their children's healthy development and reduce the risk of substance use.</li>
+        <li><strong>School-Based Programs:</strong> These programs aim to equip students with social, emotional, and cognitive skills to resist drug use and provide accurate information about drugs.</li>
+        <li><strong>Community-Based Programs:</strong> Community organizations and leaders play a vital role in identifying local risk factors and implementing evidence-based interventions to address them.</li>
+        <li><strong>Population-Specific Programs:</strong> Programs tailored to specific groups with shared circumstances or characteristics, such as those experiencing homelessness or belonging to particular ethnic or racial groups, can address unique challenges and amplify strengths.</li>
+    </ul>
+
+    <h5>The Importance of a Holistic Approach</h5>
+    <p>Effective drug prevention requires a multi-pronged approach that addresses individual, family, community, and societal factors. It is essential to:</p>
+    <ul>
+        <li><strong>Promote Comprehensive Education:</strong> Educating individuals about the risks and consequences of drug use is crucial.</li>
+        <li><strong>Strengthen Family and Community Support:</strong> Nurturing healthy relationships and fostering supportive environments can act as powerful deterrents.</li>
+        <li><strong>Develop Life Skills and Coping Mechanisms:</strong> Equipping individuals with the skills to manage stress, build resilience, and make healthy choices is essential.</li>
+        <li><storng>Address Underlying Mental Health Issues:</storng> Mental health disorders can increase the risk of substance use; addressing these issues is vital.</li>
+        <li><strong>Reduce Access to Drugs:</strong> Policies and strategies aimed at reducing the availability and accessibility of drugs can play a significant role in prevention.</li>
+    </ul>
+
+    <p>Drug prevention is an ongoing effort that requires collaboration between individuals, families, communities, and policymakers. By implementing evidence-based strategies and promoting a holistic approach, we can create a healthier society and reduce the devastating impact of drug use.</p>
+</section>
+
+
+        <!-- Members Section -->
+        <section id="members" class="section">
+            <h2>Group 1 Members</h2>
+            <div class="member-grid">
+                <div class="member-card">
+                    <img src="C:\Users\Ryzen3\Downloads\cabs.jpeg" alt="Angelo Josh P. Caballero">
+                    <h3>Caballero, Angelo Josh P.</h3>
+                </div>
+                <div class="member-card">
+                    <img src="C:\Users\Ryzen3\Downloads\bea2.0.jpeg" alt="Bea Jeane T. Loza">
+                    <h3>Loza, Bea Jeane T.</h3>
+                </div>
+                <div class="member-card">
+                    <img src="C:\Users\Ryzen3\Downloads\raden2.0.jpeg" alt="Raden B. Reyes">
+                    <h3>Reyes, Raden B.</h3>
+                </div>
+                <div class="member-card">
+                    <img src="C:\Users\Ryzen3\Downloads\mira.jpeg" alt="Jumeirah W. Mallare">
+                    <h3>Mallare, Jumeirah W.</h3>
+                </div>
+                <div class="member-card">
+                    <img src="C:\Users\Ryzen3\Downloads\vergara.jpeg" alt="Jiamine N. Vergara">
+                    <h3>Vergara, Jiamine N.</h3>
+                </div>
+                <div class="member-card">
+                    <img src="C:\Users\Ryzen3\Downloads\gian3.0.jpeg" alt="Gian Carlo M. Lucero">
+                    <h3>Lucero, Gian Carlo M.</h3>
+                </div>
+                <div class="member-card">
+                    <img src="C:\Users\Ryzen3\Downloads\cholo2.0.jpeg" alt="Cholo S. Carlos">
+                    <h3>Carlos, Cholo S.</h3>
+                </div>
+                <div class="member-card">
+                    <img src="C:\Users\Ryzen3\Downloads\paul2.0.jpeg" alt="John Paul Marl P. Lay">
+                    <h3>Lay, Paul John Marl P.</h3>
+                </div>
+                <div class="member-card">
+                    <img src="C:\Users\Ryzen3\Downloads\roy.jpeg" alt="Roy A. Gravillo">
+                    <h3>Gravillo, Roy A.</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Substance Awareness Resource Guide | Educational Purposes</p>
+    </footer>
+
+</body>
+</html>
